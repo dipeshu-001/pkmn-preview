@@ -1,0 +1,49 @@
+{
+  "name": "pkmn-preview",
+  "version": "1.1.0",
+  "description": "Pokémon team preview image generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "npx tsc -p ./ -w",
+    "build": "npx tsc -p ./",
+    "postversion": "git push && git push --tags",
+    "prepack": "npx tsc -p ./"
+  },
+  "files": [
+    "dist/**/*",
+    "data/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipeshu-001/pkmn-preview.git"
+  },
+  "keywords": [
+    "Pokémon",
+    "team",
+    "preview",
+    "generator",
+    "showdown",
+    "summary"
+  ],
+  "author": "dipeshu-001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dipeshu-001/pkmn-preview/issues"
+  },
+  "homepage": "https://github.com/dipeshu-001/pkmn-preview#readme",
+  "dependencies": {
+    "@pkmn/data": "^0.9.19",
+    "@pkmn/dex": "^0.9.19",
+    "@pkmn/img": "^0.2.32",
+    "@pkmn/sets": "^5.1.2",
+    "skia-canvas": "^1.0.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/skia-canvas": "^0.9.28"
+  }
+}
+
