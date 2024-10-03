@@ -13,7 +13,7 @@ npm i pkmn-preview
 
 ```ts
 import { Sets } from '@pkmn/sets';
-import { summaryScreen, partyScreen } from 'team-preview';
+import { summaryScreen, partyScreen } from 'pkmn-preview';
 
 //Pokémon Showdown! set
 const set = Sets.importSet(
