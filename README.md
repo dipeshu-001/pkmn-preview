@@ -13,7 +13,7 @@ npm i pkmn-preview
 
 ```ts
 import { Sets } from '@pkmn/sets';
-import { summaryScreen, partyScreen } from 'pkmn-preview';
+import { summaryScreen, partyScreen } from 'pkmnn-preview';
 
 //Pokémon Showdown! set
 const set = Sets.importSet(
@@ -36,7 +36,7 @@ const buffer = await summaryScreen(set);
 ### Generate a party preview
 
 ```ts
-import { summaryScreen, partyScreen } from 'team-preview';
+import { summaryScreen, partyScreen } from 'pkmnn-preview';
 
 //array of 6 sets
 const buffer = await partyScreen([set, set2, set3, set4, set5, set6]);
